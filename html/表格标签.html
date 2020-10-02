@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        table, td, th{
+            border: 1px solid red;
+        }
+        table{
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
-<table border="1px">
+
+<table>
     <tr>
         <th>编号</th>
         <th>姓名</th>
@@ -26,7 +35,7 @@
     </tr>
 </table>
 
-<table border="1px">
+<table>
     <caption>员工信息表</caption>
     <thead>
     <tr>
@@ -52,32 +61,11 @@
     </tfoot>
 </table>
 
-<table border="1px">
-    <tr bgcolor="red">
-        <th>编号</th>
-        <th>姓名</th>
-        <th>年龄</th>
-        <th>备注</th>
-    </tr>
-    <tr>
-        <td>001</td>
-        <td>赵四</td>
-        <td>58</td>
-        <td>亚洲舞王</td>
-    </tr>
-    <tr>
-        <td>002</td>
-        <td>刘能</td>
-        <td>59</td>
-        <td>玉田花圃</td>
-    </tr>
-</table>
-
-<table border="1px">
+<table>
     <colgroup>
         <!--将第一列跳过，将第二列背景颜色改为蓝色-->
         <col/>
-        <col bgcolor="blue"/>
+        <col style="background: blue;"/>
     </colgroup>
 
     <tr>
@@ -100,7 +88,7 @@
     </tr>
 </table>
 
-<table border="1px" width="200px">
+<table>
     <tr>
         <td colspan="2">1</td>
         <td>3</td>
@@ -108,15 +96,17 @@
     </tr>
     <tr>
         <td rowspan="3">5</td>
-        <td colspan="3">6</td>
+        <td>6</td>
+        <td colspan="2" rowspan="3">7</td>
     </tr>
     <tr>
         <td>10</td>
-        <td colspan="2" rowspan="2">11</td>
     </tr>
     <tr>
         <td>14</td>
     </tr>
 </table>
+
+
 </body>
 </html>

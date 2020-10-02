@@ -5,18 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-<embed src="../z-note/test.swf"/>
 
-<video preload="metadata" poster="../z-image/test.jpg"
-       loop="loop" muted="muted" controls="controls">
+<embed src="../z-res/test.swf"/>
+<embed src="../z-res/test.mp3"/>
+<embed src="../z-res/test.mp4"/>
 
-    <source src="../z-note/test.mp4"/>
-    <source src="../z-note/test.ogg"/>
+<hr/>
+
+<video controls="controls" preload="metadata" poster="../z-image/test.jpg" loop="loop">
+    <source src="../z-res/test.mp4"/>
+    <source src="../z-res/test.ogg"/>
 </video>
 
-<audio controls="controls">
-    <source src="../z-note/test.mp3"/>
-    <source src="../z-note/test.ogg"/>
+<hr/>
+
+<audio controls="controls" muted="muted" autoplay="autoplay">
+    <source src="../z-res/test.mp3"/>
+    <source src="../z-res/test.ogg"/>
 </audio>
 
 </body>

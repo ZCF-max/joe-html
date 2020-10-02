@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="myForm" action="#" method="get" target="_blank">
+    默认值：<input value="默认值"/><br />
+    禁用：<input name="disabled" value="disabled" disabled="disabled"/><br />
+    只读：<input name="readonly" value="readonly" readonly="readonly"/><br />
+    背景字：<input placeholder="背景提示字"/><br />
+    必填验证：<input name="required" required="required"/><br />
+    正则验证：<input name="pattern" pattern="\d{5}"/><br />
+    自动焦点：<input autofocus="autofocus"/><br />
+    关闭提示：<input autocomplete="off"/><br />
+    尺寸：<input size="5"/><br />
+    最大字符：<input maxlength="10"/><br />
+    快捷焦点：<input accesskey="k"/><br />
+    切换顺序：<input tabindex="-1"/><br />
+    <button>提交</button>
+</form>
+外挂：<input form="myForm" name="form"/>
+</body>
+</html>

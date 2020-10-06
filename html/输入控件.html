@@ -5,33 +5,119 @@
     <title>Title</title>
 </head>
 <body>
-<form action="#" method="get" target="_blank">
-    单文：<input type="text" name="text" /><br />
-    密码：<input type="password" name="password"/><br />
-    单选：
-    <input type="radio" name="gender" value="male" checked="checked"/>男
-    <input type="radio" name="gender" value="female"/>女<br />
-    多选：
-    <input type="checkbox" name="hobby" value="sing" checked="checked"/>唱歌
-    <input type="checkbox" name="hobby" value="dancing"/>跳舞<br />
-    文件：<input type="file" name="file" accept="image/x-png"/><br />
-    隐藏：<input type="hidden" name="hidden"><br/>
-    图片：<input type="image" src="a.jpg" alt=""/>
-</form>
+<form action="#" method="get">
+    <label>
+        <span>单文：</span>
+        <input type="text" name="text"/>
+    </label>
+    <br/><br/>
 
-<form action="#" method="get" target="_blank">
-    搜索：<input type="search" name="search" /><br />
-    数字：<input type="number" name="number" min="10" max="100" step="2" /><br />
-    范围： <input type="range" name="range" min="10" max="100" step="1"/><br />
-    日期：<input type="date" name="date"/><br />
-    本地：<input type="datetime-local" name="datetime-local"><br />
-    周期：<input type="week" name="week"><br />
-    时间：<input type="time" name="time"><br />
-    月份：<input type="month" name="month"><br />
-    电邮：<input type="email" name="email" /><br />
-    手机：<input type="tel" name="tel" /><br />
-    网址：<input type="url" name="url" /><br />
-    颜色：<input type="color" name="color"><hr />
+    <label>
+        <span>密码：</span>
+        <input type="password" name="password"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>单选：</span>
+        <input type="radio" name="gender" value="male" checked="checked"/> 男
+        <input type="radio" name="gender" value="female"/>女
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>多选：</span>
+        <input type="checkbox" name="hobby" value="sing" checked="checked"/>唱歌
+        <input type="checkbox" name="hobby" value="game" checked="checked"/>打游戏
+        <input type="checkbox" name="hobby" value="dancing"/>跳舞
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>文件：</span>
+        <input type="file" name="file" accept="image/x-png"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>隐藏：</span>
+        <input type="hidden" name="hidden" value="hidden-value">
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>搜索：</span>
+        <input type="search" name="search"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>数字：</span>
+        <input type="number" name="number" min="10" max="100" step="2"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>范围：</span>
+        <input type="range" name="range" min="10" max="100" step="1"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>日期：</span>
+        <input type="date" name="date"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>本地：</span>
+        <input type="datetime-local" name="datetime-local">
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>周期：</span>
+        <input type="week" name="week">
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>时间：</span>
+        <input type="time" name="time">
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>月份：</span>
+        <input type="month" name="month">
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>电邮：</span>
+        <input type="email" name="email"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>手机：</span>
+        <input type="tel" name="tel"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>颜色：</span>
+        <input type="color" name="color"/>
+    </label>
+    <br/><br/>
+
+    <label>
+        <span>网址：</span>
+        <input type="url" name="url"/>
+    </label>
+
+    <button>提交</button>
+
 </form>
 </body>
 </html>

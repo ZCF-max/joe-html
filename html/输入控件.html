@@ -33,7 +33,7 @@
         <legend>基本信息</legend>
         <label>
             <input/><br/>
-            <input/>
+            <input/><br/>
         </label>
     </fieldset>
     <fieldset>
@@ -42,7 +42,7 @@
             <input/><br/>
             <input/><br/>
             <input/><br/>
-            <input/>
+            <input/><br/>
         </label>
     </fieldset>
 </form>
@@ -118,7 +118,17 @@
 
     <label>
         <span>切换顺序：</span>
-        <input tabindex="-1"/>
+        <input tabindex="3" value="3"/>
+        <input tabindex="1" value="1"/>
+        <input tabindex="-1" value="-1"/>
+        <input tabindex="2" value="2"/>
+        <input tabindex="4" value="4"/>
+    </label>
+    <br/>
+
+    <label>
+        <span>数据列表：</span>
+        <input list="data"/>
     </label>
     <br/>
 
@@ -129,6 +139,13 @@
     <span>外挂：</span>
     <input form="my-form" name="form"/>
 </label>
+
+<datalist id="data">
+    <option>数据选项001</option>
+    <option>数据选项002</option>
+    <option>数据选项003</option>
+</datalist>
+
 <hr/>
 
 <form action="#" method="get">

@@ -3,30 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        hr{
+            background: red;
+            height: 10px;
+        }
+    </style>
 </head>
 <body>
-<label>
-    <span>学历</span>
-    <select name="xl">
-        <option value="1">硕士</option>
-        <option value="2">大学</option>
-        <option value="3">大专</option>
-        <option value="4">高中</option>
-        <option value="5">中专</option>
-    </select>
-</label>
-
-<label>
-    <span>学历</span>
-    <select name="xl" id="xl" size="3"
-            multiple="multiple" autofocus="autofocus">
-        <option value="1">硕士</option>
-        <option value="2">大学</option>
-        <option value="3" selected="selected">大专</option>
-        <option value="4">高中</option>
-        <option value="5">中专</option>
-    </select>
-</label>
 
 <label>
     <select>
@@ -40,6 +24,47 @@
         </optgroup>
     </select>
 </label>
+<hr/>
+
+<label>
+    <span>学历</span>
+    <select name="xl" autofocus="autofocus">
+        <option value="1">硕士</option>
+        <option value="2">大学</option>
+        <option value="3" selected="selected">大专</option>
+        <option value="4">高中</option>
+        <option value="5" disabled="disabled">中专</option>
+    </select>
+</label>
+<hr/>
+
+<label>
+    <span>学历</span>
+    <select name="xl" size="3" multiple="multiple" >
+        <option value="1">硕士</option>
+        <option value="2">大学</option>
+        <option value="3" selected="selected">大专</option>
+        <option value="4">高中</option>
+        <option value="5">中专</option>
+    </select>
+</label>
+<hr/>
+
+<label>
+    <span>学历</span>
+    <select name="xl" form="select-test">
+        <option value="1">硕士</option>
+        <option value="2">大学</option>
+        <option value="3">大专</option>
+        <option value="4">高中</option>
+        <option value="5">中专</option>
+    </select>
+</label>
+<hr/>
+
+<form id="select-test" action="#" method="get">
+    <button>select-test</button>
+</form>
 
 </body>
 </html>
